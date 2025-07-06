@@ -1,0 +1,33 @@
+# HydrAMP Requirements for Python 3.8
+# 核心深度学习框架
+tensorflow==2.2.1
+tensorflow-probability==0.10.0
+Keras==2.3.1
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+
+# 数据处理和科学计算
+numpy==1.18.5
+pandas==1.1.4
+scikit-learn==0.23.2
+
+# 生物信息学
+biopython==1.81  # 修改为可用版本
+
+# 可视化
+matplotlib==3.3.2
+seaborn==0.11.0
+
+# 工具库
+cloudpickle==1.4.1
+protobuf==3.14.0
+setuptools==50.3.1
+joblib==0.17.0
+tqdm==4.51.0
+gdown>=5.2.0
+
+# 肽相关
+modlamp==4.2.3
+
+# Python 3.8+特性支持
+typing_extensions>=3.7.4
